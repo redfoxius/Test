@@ -1,0 +1,23 @@
+Test Question 
+
+---------------------------------------------------------------------------
+1) Command line:
+
+- Write a one-line command that displays the first 20 characters of a user's ssh public key
+
+>$ head -c 20 ~/.ssh/id_rsa.pub
+
+- Write a one-line command that checks the syntax of all php files in the current folder
+
+>$ for i in *.php; do php -l $i; done
+
+
+2) Git:
+
+- Write a git command that displays the hash of the current revision
+
+>$ git rev-parse HEAD
+
+- Write a git command that displays the code changes of the last 5 commits for the file index.php (in the current folder)
+
+>$ git log -n 5 -p index.php
